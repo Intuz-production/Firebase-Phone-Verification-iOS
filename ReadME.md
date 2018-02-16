@@ -1,21 +1,22 @@
-**<h1>Introduction</h1>**
+<h1>Introduction</h1>
 INTUZ is presenting a custom Firebase Phone Authentication in iOS, just go through this tutorial and you will be able to integrate phone authentication in your application.
 
 Please follow the below steps to integrate this control in your next project.
 
 <br/><br/>
-**<h1>Features</h1>**
-* Ability to customize according to your requirement.
-* Ability send or resend sms for verification code. If sms is not delivered on your device then you can perform skip.
-* Easy to integrate.
-* Fully customised design layout with theme support.
+<h1>Features</h1>
+
+- Ability to customize according to your requirement.
+- Ability send or resend SMS for a verification code. If SMS is not delivered to your device then you can perform skip.
+- Easy to integrate.
+- Fully customized design layout with theme support.
 
 <br/><br/>
 <img src="Screenshots/firebasephoneauth.gif" width="300">
 
 
 <br/><br/>
-**<h1>Getting Started</h1>**
+<h1>Getting Started</h1>
 
 To use this component in your project you need to perform below steps:
 
@@ -46,9 +47,9 @@ FirebaseApp.configure()
 
 5) Copy ‘MobileVerification’ folder and add it to your project and make sure you have checked “Copy if needed” option.
 
-6) Import '#import "MobileVerification.h"' where you want to use. If you are using swift then import this file in Bridging-Header file.
+6) Import '#import "MobileVerification.h"' where you want to use. If you are using swift then import this file into Bridging-Header file.
 
-7) Cnfigure Firebase Phone Verification theme.
+7) Configure Firebase Phone Verification theme.
 
 ```
 // Set Firebase Auth Layout Theme.
@@ -78,11 +79,11 @@ MobileVerification.verifyNumber("", title: "Firebase", withRootViewController: s
 ``` 
 
 <br/><br/>
-**<h1>Bugs and Feedback</h1>**
+<h1>Bugs and Feedback</h1>
 For bugs, questions and discussions please use the Github Issues.
 
 <br/><br/>
-**<h1>License</h1>**
+<h1>License</h1>
 The MIT License (MIT)
 <br/><br/>
 Copyright (c) 2018 INTUZ
@@ -93,7 +94,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 <br/>
 <br/>
-**<h1></h1>**
+<h1></h1>
 <a href="https://www.intuz.com/" target="_blank"><img src="Screenshots/logo.jpg"></a>
 
 
